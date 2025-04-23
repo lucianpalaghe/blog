@@ -1,0 +1,12 @@
+baseURL = ''
+languageCode = 'en-us'
+title = 'Blog'
+theme = 'archie'
+
+[params]
+	mode="auto"
+    useCDN=false
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
